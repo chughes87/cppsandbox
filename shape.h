@@ -4,6 +4,6 @@ using namespace std;
 class shape {
 public:
     virtual float getArea() = 0;
-    virtual std::string getName();
+    virtual string getName();
 };
 
