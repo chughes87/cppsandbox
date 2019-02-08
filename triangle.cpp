@@ -1,11 +1,10 @@
-#include "shape.h"
+#include "triangle.h"
 
-class triangle : public shape {
-private:
-    float width;
-    float height;
-public:
-    float getArea() {
-        return (width + height) / 2;
-    }
-};
+float triangle::getArea() {
+    return (width + height) / 2;
+}
+
+int main() {
+    return 0;
+}
+
